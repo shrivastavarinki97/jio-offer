@@ -1,0 +1,78 @@
+var _defs, _g;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgJiocloud(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    width: 52,
+    height: 52,
+    viewBox: "0 0 52 52",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip-path"
+  }, /*#__PURE__*/React.createElement("rect", {
+    id: "Rectangle_9855",
+    "data-name": "Rectangle 9855",
+    width: 52,
+    height: 52,
+    rx: 26,
+    fill: "#e30513"
+  })))), _g || (_g = /*#__PURE__*/React.createElement("g", {
+    id: "ic_jiotv",
+    transform: "translate(-0.093 0.127)"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "Mask_Group_137205",
+    "data-name": "Mask Group 137205",
+    transform: "translate(0.093 -0.127)",
+    clipPath: "url(#clip-path)"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "ic_jiocloud",
+    transform: "translate(0 0)"
+  }, /*#__PURE__*/React.createElement("rect", {
+    id: "Rectangle_9857",
+    "data-name": "Rectangle 9857",
+    width: 52,
+    height: 52,
+    rx: 11,
+    transform: "translate(0)",
+    fill: "#f38020"
+  }), /*#__PURE__*/React.createElement("g", {
+    id: "Group_3",
+    "data-name": "Group 3",
+    transform: "translate(9.001 14.778)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Path_2",
+    "data-name": "Path 2",
+    d: "M46.427,41.938a5.644,5.644,0,0,1,1.118-.075,7.9,7.9,0,1,1,0,15.807H27.936a6.491,6.491,0,0,1-6.486-6.493,6.413,6.413,0,0,1,5.815-6.413,9.911,9.911,0,0,1,9.916-9.013A10.071,10.071,0,0,1,46.427,41.938Z",
+    transform: "translate(-21.45 -35.75)",
+    fill: "#fff"
+  })), /*#__PURE__*/React.createElement("rect", {
+    id: "Rectangle_9858",
+    "data-name": "Rectangle 9858",
+    width: 52,
+    height: 52,
+    rx: 11,
+    transform: "translate(0)",
+    fill: "#f38020",
+    opacity: 0.1
+  }))), /*#__PURE__*/React.createElement("path", {
+    id: "Path_64469",
+    "data-name": "Path 64469",
+    d: "M0,15Z",
+    transform: "translate(0.141 8.124)",
+    fill: "#fdc3c7",
+    opacity: 0.2
+  }))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgJiocloud);
+export default __webpack_public_path__ + "static/media/jiocloud.600c8b2a77d8062660a6f43e43aed83e.svg";
+export { ForwardRef as ReactComponent };
